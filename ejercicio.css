@@ -1,0 +1,50 @@
+.circulo{ /*crea una figura*/
+    width: 100px; /*ancho del circulo*/
+    height: 100px;/*altura del circulo*/
+    border-radius: 50%; /*esquinas curveadas para formar el circulo*/
+    background-color: aqua;/*color de fondo del circulo*/
+    border-style: solid; /*establece la linea de los bordes */
+    margin-bottom: 10px;/*establece el espacio requerido en la parte inferior del circulo*/
+    display: block;/*establece que un elemento ocupará todo el espacio disponible por defecto 
+    y el siguiente elemento a este se situará por debajo*/
+    margin-left: auto;/*margen izquierdo*/
+    margin-right: auto;/*margen derecho de un elemento*/
+}
+
+.rectangulo{/*crea una figura*/
+    width: 150px;/*ancho del rectangulo*/
+    height: 100px;/*altura del rectangulo*/
+    border-style: solid;/*establece la linea de los bordes */
+    margin-bottom: 10px;/*establece el espacio requerido en la parte inferior de la figura*/
+    background-color: blueviolet;/*color de fondo del rectangulo*/
+    display: block;/*establece que un elemento ocupará todo el espacio disponible por defecto 
+    y el siguiente elemento a este se situará por debajo*/
+    margin-left: auto;/*margen izquierdo*/
+    margin-right: auto;/*margen derecho de un elemento*/
+}
+
+.triangulo{/*crea una figura*/
+    width: 0;/*ancho del triangulo*/
+    height: 0;/*altura del triangulo*/
+    border: 150px solid transparent; /*opacidad del elemento*/
+    border-top: 0;/*establece elemento de la parte superior*/
+    border-bottom: 150px solid rgb(232,6,176);/*permite de definir 
+    de una vez todas las propiedades individuales de la figura*/
+    margin-left: auto;/*margen izquierdo*/
+    margin-right: auto;/*margen derecho de un elemento*/
+    display: block;/*establece que un elemento ocupará todo el espacio disponible por defecto 
+    y el siguiente elemento a este se situará por debajo*/
+}
+
+.rombo{/*crea una figura*/
+    width: 150px;/*ancho del rombo*/
+    height: 150px;/*altura del rombo*/
+    position: relative;/*posicion por defecto*/
+    transform: rotate(45deg); /*permite rotar un elemento*/
+    background-color: brown;/*color de fondo del rombo*/
+    margin-top: 50px;/*margen superior*/
+    margin-left: 40px;/*margen izquierdo*/
+    border-style: solid;/*establece la linea de los bordes */
+    margin-left: auto;/*margen izquierdo*/
+    margin-right: auto;/*margen derecho de un elemento*/
+}
